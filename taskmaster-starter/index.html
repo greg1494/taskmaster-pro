@@ -40,7 +40,7 @@
         <!-- in progress starts -->
         <div class="col-12 col-md-6 col-xl-3 mb-3">
           <div class="card">
-            <h4 class="card-reader bg-dark text-light">
+            <h4 class="card-header bg-dark text-light">
               In Progress
             </h4>
             <ul id="list-inProgress" class="list-group list-group-flush ui-sortable ">
@@ -52,7 +52,7 @@
         <!-- in review start -->
         <div class="col-12 col-md-6 col-xl-3 mb-3">
           <div class="card">
-            <h4 class="card-reader bg-dark text-light">
+            <h4 class="card-header bg-dark text-light">
               In Review
             </h4>
             <ul id="list-inReview" class="list-group list-group-flush ui-sortable">
@@ -64,7 +64,7 @@
         <!-- done start -->
         <div class="col-12 col-md-6 col-xl-3 mb-3">
           <div class="card">
-            <h4 class="card-reader bg-dark text-light">
+            <h4 class="card-header bg-dark text-light">
               Done
             </h4>
             <ul id="list-done" class="list-group list-group-flush ui-sortable">
@@ -74,13 +74,14 @@
         </div>
         <!-- done end -->
       </div>
-      <div id="trash">
-        <div class="w-100 bg-danger p-3 mt-auto text-center text-light display-4 ">
-          Drop Here to Remore.
+      <footer class="mt-auto" id="trash">
+        <div class="w-100 bg-danger p-3 mt-auto text-center text-light display-4 bottom-trash">
+          <span class="oi oi-trash mx-auto mb-4"></span>
+            Drop Here to Remore.
         </div>
-      </div>
+      </footer>
     </main>
-  </div>
+</div>
 
   <!-- Modal -->
   <div class="modal fade" id="task-form-modal" tabindex="-1" role="dialog" aria-labelledby="task-form-modal"
@@ -118,6 +119,7 @@
   <script src="https://cdn.jsdelivr.net/npm/jquery-ui-touch-punch@0.2.3/jquery.ui.touch-punch.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
   <script src="./assets/js/script.js"></script>
 </body>
 
